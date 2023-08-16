@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-16T14:07:05 IST" name="Saucedemo1" finished-at="2023-08-16T14:07:34 IST" duration-ms="29719">
+    <groups>
+      <group name="Productpage">
+        <method signature="Productpagetest.addToCart()[pri:0, instance:com.preeti.Productpagetest@6221a451]" name="addToCart" class="com.preeti.Productpagetest"/>
+        <method signature="Productpagetest.validateprodorder()[pri:0, instance:com.preeti.Productpagetest@6221a451]" name="validateprodorder" class="com.preeti.Productpagetest"/>
+      </group> <!-- Productpage -->
+      <group name="Checkoutinfotest">
+        <method signature="Checkoutinfotest.validatechkoutinfo()[pri:0, instance:com.preeti.Checkoutinfotest@3012646b]" name="validatechkoutinfo" class="com.preeti.Checkoutinfotest"/>
+      </group> <!-- Checkoutinfotest -->
+      <group name="Cartpagetest">
+        <method signature="Cartpagetest.validateaddtocart()[pri:0, instance:com.preeti.Cartpagetest@52719fb6]" name="validateaddtocart" class="com.preeti.Cartpagetest"/>
+      </group> <!-- Cartpagetest -->
+      <group name="EndtoEndTesting">
+        <method signature="Loginpagetest.validateloginfunctionality()[pri:0, instance:com.preeti.Loginpagetest@4f80542f]" name="validateloginfunctionality" class="com.preeti.Loginpagetest"/>
+        <method signature="Productpagetest.addToCart()[pri:0, instance:com.preeti.Productpagetest@6221a451]" name="addToCart" class="com.preeti.Productpagetest"/>
+        <method signature="Productpagetest.validateprodorder()[pri:0, instance:com.preeti.Productpagetest@6221a451]" name="validateprodorder" class="com.preeti.Productpagetest"/>
+        <method signature="Cartpagetest.validateaddtocart()[pri:0, instance:com.preeti.Cartpagetest@52719fb6]" name="validateaddtocart" class="com.preeti.Cartpagetest"/>
+        <method signature="Checkoutinfotest.validatechkoutinfo()[pri:0, instance:com.preeti.Checkoutinfotest@3012646b]" name="validatechkoutinfo" class="com.preeti.Checkoutinfotest"/>
+        <method signature="Checkoutcompletetest.validatechkout()[pri:0, instance:com.preeti.Checkoutcompletetest@4a883b15]" name="validatechkout" class="com.preeti.Checkoutcompletetest"/>
+      </group> <!-- EndtoEndTesting -->
+      <group name="Checkoutcompletetest">
+        <method signature="Checkoutcompletetest.validatechkout()[pri:0, instance:com.preeti.Checkoutcompletetest@4a883b15]" name="validatechkout" class="com.preeti.Checkoutcompletetest"/>
+      </group> <!-- Checkoutcompletetest -->
+      <group name="Loginpage">
+        <method signature="Loginpagetest.validateloginfunctionality()[pri:0, instance:com.preeti.Loginpagetest@4f80542f]" name="validateloginfunctionality" class="com.preeti.Loginpagetest"/>
+      </group> <!-- Loginpage -->
+    </groups>
+    <test started-at="2023-08-16T14:07:05 IST" name="Test" finished-at="2023-08-16T14:07:34 IST" duration-ms="29719">
+      <class name="com.preeti.Checkoutinfotest">
+        <test-method signature="validatechkoutinfo()[pri:0, instance:com.preeti.Checkoutinfotest@3012646b]" started-at="2023-08-16T14:07:33 IST" name="validatechkoutinfo" depends-on-groups="Cartpagetest" finished-at="2023-08-16T14:07:34 IST" duration-ms="1075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatechkoutinfo -->
+      </class> <!-- com.preeti.Checkoutinfotest -->
+      <class name="com.preeti.Productpagetest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.preeti.Productpagetest@6221a451]" started-at="2023-08-16T14:07:31 IST" name="setup" finished-at="2023-08-16T14:07:31 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addToCart()[pri:0, instance:com.preeti.Productpagetest@6221a451]" started-at="2023-08-16T14:07:32 IST" name="addToCart" depends-on-groups="Loginpage" finished-at="2023-08-16T14:07:32 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="validateprodorder()[pri:0, instance:com.preeti.Productpagetest@6221a451]" started-at="2023-08-16T14:07:32 IST" name="validateprodorder" depends-on-groups="Loginpage" finished-at="2023-08-16T14:07:33 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateprodorder -->
+      </class> <!-- com.preeti.Productpagetest -->
+      <class name="com.preeti.Loginpagetest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.preeti.Loginpagetest@4f80542f]" started-at="2023-08-16T14:07:05 IST" name="setup" finished-at="2023-08-16T14:07:31 IST" duration-ms="26088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateloginfunctionality()[pri:0, instance:com.preeti.Loginpagetest@4f80542f]" started-at="2023-08-16T14:07:31 IST" name="validateloginfunctionality" finished-at="2023-08-16T14:07:32 IST" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateloginfunctionality -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.preeti.Loginpagetest@4f80542f]" started-at="2023-08-16T14:07:34 IST" name="teardown" finished-at="2023-08-16T14:07:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.preeti.Loginpagetest -->
+      <class name="com.preeti.Checkoutcompletetest">
+        <test-method signature="validatechkout()[pri:0, instance:com.preeti.Checkoutcompletetest@4a883b15]" started-at="2023-08-16T14:07:34 IST" name="validatechkout" depends-on-groups="Checkoutinfotest" finished-at="2023-08-16T14:07:34 IST" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatechkout -->
+      </class> <!-- com.preeti.Checkoutcompletetest -->
+      <class name="com.preeti.Cartpagetest">
+        <test-method signature="validateaddtocart()[pri:0, instance:com.preeti.Cartpagetest@52719fb6]" started-at="2023-08-16T14:07:33 IST" name="validateaddtocart" depends-on-groups="Productpage" finished-at="2023-08-16T14:07:33 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateaddtocart -->
+      </class> <!-- com.preeti.Cartpagetest -->
+    </test> <!-- Test -->
+  </suite> <!-- Saucedemo1 -->
+</testng-results>
